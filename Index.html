@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waste Jobs | ธุรกิจจัดการขยะอย่างยั่งยืน</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", sans-serif; }
+
+    body {
+      min-height: 100vh;
+      color: #ffffff;
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
+                  url("building-bg.jpg") center/cover no-repeat fixed;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      backdrop-filter: blur(2px);
+    }
+
+    .logo {
+      width: 400px;
+      height: 400px;
+      background: url("wj-logo.png") center/contain no-repeat;
+      margin-bottom: 5px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      max-width: 700px;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 80px 10%;
+      background: #0f1f1a;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      color: #6be3a1;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover { transform: translateY(-8px); }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #9ff5c8;
+    }
+
+    footer {
+      padding: 40px 10%;
+      text-align: center;
+      background: #08140f;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo"></div>
+    <h1>WASTE JOBS</h1>
+    <p class="subtitle">
+      ธุรกิจจัดการขยะครบวงจร เพื่อโลกที่สะอาด ยั่งยืน และมีอนาคต
+    </p>
+  </header>
+
+  <section>
+    <h2 class="section-title">บริการของเรา</h2>
+    <div class="services">
+      <div class="card">
+        <h3>จัดการขยะอุตสาหกรรม</h3>
+        <p>คัดแยก ขนส่ง และกำจัดขยะตามมาตรฐานสิ่งแวดล้อม</p>
+      </div>
+      <div class="card">
+        <h3>รีไซเคิล & แปรรูป</h3>
+        <p>เปลี่ยนของเสียให้กลับมามีคุณค่าอีกครั้ง</p>
+      </div>
+      <div class="card">
+        <h3>ที่ปรึกษาด้านสิ่งแวดล้อม</h3>
+        <p>วางระบบจัดการขยะอย่างยั่งยืนสำหรับองค์กร</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Waste Jobs Co., Ltd. | Because Earth Matters 🌱
+  </footer>
+
+</body>
+</html>
